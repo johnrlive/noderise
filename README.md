@@ -1,18 +1,30 @@
-# nodeRISE
+nodeRISE
 ========
-
 Create a nodeJS server has become simple!
 
+## Pre Setup
+
+  * $ `sudo adduser ubuntu`
+  
+  * $ `sudo adduser ubuntu sudo`
+  
+  * $ `visudo`
+  
+    add this line to # User privileges specification
+  
+    `ubuntu  ALL=(ALL:ALL) ALL`
+
+    save and close file
 
 ## Getting started with NodeRISE
   
-  $ `cd ~/`
+  * $ `cd ~/`
   
-  $ `git clone git://github.com/johnrlive/noderise.git`
+  * $ `git clone git://github.com/johnrlive/noderise.git`
   
-  $ `cd noderise`
+  * $ `cd noderise`
   
-  $ `sh noderise-setup.sh`
+  * $ `sh noderise-setup.sh`
   
   
 ## Special Thanks 
