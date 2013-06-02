@@ -52,3 +52,8 @@ sleep 1
 sudo apt-get -y install nginx
 echo '[###### Done ######]'
 
+cd /home
+
+echo 'Your server has been NodeRISEd... enjoy!'
+
+exit
