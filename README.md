@@ -1,10 +1,10 @@
-noderise
+# nodeRISE
 ========
 
 Create a nodeJS server has become simple!
 
 
-Getting started with NodeRISE
+## Getting started with NodeRISE
   
   $ `cd ~/`
   
@@ -15,7 +15,9 @@ Getting started with NodeRISE
   $ `sh noderise-setup.sh`
   
   
-Special thanks to the Authors of following resources:
+## Special Thanks 
+
+  To the Authors of following resources:
 
   Author of NodeRAIN for inspiring me - (http://noderain.it)
   
