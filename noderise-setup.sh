@@ -21,10 +21,11 @@ sleep 1
 
 echo '[###### Install utility tool ######]'
 sleep 1
-sudo apt-get install -y rcconf
 sudo apt-get install -y build-essential
 sudo apt-get install -y libssl-dev
 sudo apt-get install -y git-core
+sudo apt-get install -y curl
+sudo apt-get install -y mc
 echo '[###### Done ######]'
 sleep 1
 
@@ -52,22 +53,19 @@ sleep 1
 echo '[###### Install Forever NPM ######]'
 sleep 1
 sudo npm -g install forever
-sudo npm -g install forever-webui && sudo node node_modules/forever-webui/app.js
 echo '[###### Done ######]'
-
-echo '[###### Install NGINX ######]'
 sleep 1
-sudo apt-get -y install nginx
-echo '[###### Done ######]'
+
 
 echo '{###### Setup Directories ######]'
 sleep 1
 sudo mkdir ~/apps
-sudo mkdir ~/apps/example
-sudo cp ~/noderise/app-starter.sh ~/apps/example/app-starter.sh
-sudo chmod 700 ~/apps/example/app-starter.sh
-sudo @reboot ~/apps/example/app-starter.sh >> cron.log 2>&1
+sudo mkdir ~/apps/startup
+sudo cp ~/noderise/app-starter.sh ~/apps/startup/app-starter.sh
+sudo chmod 700 ~/apps/startup/app-starter.sh
+sudo @reboot ~/apps/startup/app-starter.sh >> cron.log 2>&1
 echo '{###### Done #####]'
+sleep 1
 
 sudo rm -rf /home/tmp/*
 
