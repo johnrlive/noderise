@@ -15,6 +15,7 @@ Create a nodeJS server has become simple!
     * `ubuntu  ALL=(ALL:ALL) ALL`
     
   * $ `su ubuntu`
+  * $ `sudo apt-get install git -y`
 
 ## Getting started with NodeRISE
   
