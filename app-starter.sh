@@ -4,5 +4,5 @@ if [ $(ps aux | grep $USER | grep node | grep -v grep | wc -l | tr -s "\n") -eq 
 then
         export NODE_ENV=production
         export PATH=/usr/local/bin:$PATH
-        forever start ~/apps/example/app.js > /dev/null
+        forever start ~/apps/[YourAppName]/app.js > /dev/null
 fi
