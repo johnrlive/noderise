@@ -1,4 +1,12 @@
 #!/bin/bash
+
+script_runner=$(whoami)
+
+if [ $script_runner == "root" ] ; then
+  echo -e "\nFor security reasons this script must be run as a normal user with sudo privileges\n"
+  exit 1
+fi
+
 clear
 echo '[Wellcome to nodeRISE server]'
 echo '(setup can take more 5 minutes)'
