@@ -52,7 +52,16 @@ sleep 1
 sudo apt-get -y install nginx
 echo '[###### Done ######]'
 
-cd /home
+echo '{###### Setup Directories ######]'
+sleep 1
+sudo mkdir ~/apps/example
+touch ~/apps/example/app-starter.sh
+sudo chmod 700 ~/apps/example/app-starter.sh
+sudo @reboot ~/apps/example/app-starter.sh >> cron.log 2>&1
+echo '{###### Donde #####]'
+
+
+cd ~
 
 echo 'Your server has been NodeRISEd... enjoy!'
 
