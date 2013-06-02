@@ -15,6 +15,8 @@ Create a nodeJS server has become simple!
     `ubuntu  ALL=(ALL:ALL) ALL`
 
     save and close file
+    
+   * $ `su ubuntu`
 
 ## Getting started with NodeRISE
   
