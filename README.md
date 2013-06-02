@@ -12,11 +12,11 @@ Create a nodeJS server has become simple!
   
     add this line to # User privileges specification
   
-    `ubuntu  ALL=(ALL:ALL) ALL`
+    * `ubuntu  ALL=(ALL:ALL) ALL`
 
     save and close file
     
-   * $ `su ubuntu`
+  * $ `su ubuntu`
 
 ## Getting started with NodeRISE
   
