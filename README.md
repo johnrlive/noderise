@@ -10,11 +10,9 @@ Create a nodeJS server has become simple!
   
   * $ `visudo`
   
-    add this line to # User privileges specification
+    add this line to # User privileges specification then save and close
   
     * `ubuntu  ALL=(ALL:ALL) ALL`
-
-    save and close file
     
   * $ `su ubuntu`
 
