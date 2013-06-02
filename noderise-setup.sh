@@ -24,7 +24,7 @@ echo '[###### Install nodejs v0.10.9 ######]'
 sleep 1
 sudo mkdir /home/tmp
 cd /home/tmp
-sudo wget http://nodejs.org/dist/v0.10.4/node-v0.10.9.tar.gz
+sudo wget http://nodejs.org/dist/v0.10.9/node-v0.10.9.tar.gz
 sudo tar xzf node-v0.10.9.tar.gz
 cd node-v0.10.9
 ./configure --prefix=/usr
