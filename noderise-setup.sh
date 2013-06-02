@@ -63,7 +63,7 @@ echo '[###### Done ######]'
 echo '{###### Setup Directories ######]'
 sleep 1
 sudo mkdir ~/apps
-cp ~/noderise/app-starter.sh ~/apps/app-starter.sh
+sudo cp ~/noderise/app-starter.sh ~/apps/app-starter.sh
 sudo chmod 700 ~/apps/app-starter.sh
 sudo @reboot ~/apps/app-starter.sh >> cron.log 2>&1
 echo '{###### Done #####]'
