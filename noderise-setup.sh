@@ -56,14 +56,12 @@ sudo npm -g install forever
 echo '[###### Done ######]'
 sleep 1
 
-
 echo '{###### Setup Directories ######]'
 sleep 1
 sudo mkdir ~/apps
 sudo mkdir ~/apps/startup
 sudo cp ~/noderise/app-starter.sh ~/apps/startup/app-starter.sh
 sudo chmod 700 ~/apps/startup/app-starter.sh
-sudo @reboot ~/apps/startup/app-starter.sh >> cron.log 2>&1
 echo '{###### Done #####]'
 sleep 1
 
