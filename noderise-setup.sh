@@ -65,8 +65,8 @@ sleep 1
 
 cd ~/
 
-echo 'echo $NODE_PATH'
-echo 'echo $NPM_PATH'
+echo $NODE_PATH
+echo $NPM_PATH
 echo 'Your server has been NodeRISEd... enjoy!'
 
 exit
