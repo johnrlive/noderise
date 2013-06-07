@@ -47,9 +47,10 @@ sudo apt-get install -y npm
 echo '[###### Done ######]'
 sleep 1
 
-echo '[###### Install Forever NPM ######]'
+echo '[###### Install NPM's ######]'
 sleep 1
 sudo npm -g install forever
+sudo npm -g install express
 echo '[###### Done ######]'
 sleep 1
 
